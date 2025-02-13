@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Places</title>
+    <style>
+        /* Internal stylesheet for the layout */
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left-section {
+            width: 30%;
+            background-color: #cf1313;
+            padding: 10px;
+        }
+
+        .right-section {
+            width: 70%;
+            background-color: #089aca;
+            padding: 10px;
+        }
+
+        .left-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .left-section li {
+            margin: 5px 0;
+        }
+
+        .right-section ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top section with inline styling -->
+    <header style="background-color: #4caf50; color: white; padding: 10px; text-align: center;">
+        <h1>Tourist Places</h1>
+    </header>
+
+    <!-- Main content sections -->
+    <div class="container">
+        <!-- Left section -->
+        <div class="left-section">
+            <h2>City</h2>
+            <ul>
+                <li>1 Pune</li>
+                <li>2 Bangalore</li>
+                <li>3 Hyderabad</li>
+                <li>4 Delhi</li>
+            </ul>
+        </div>
+
+        <!-- Right section -->
+        <div class="right-section">
+            <h2>Tourist Places in Pune</h2>
+            <ul>
+                <li>Shanivarwada</li>
+                <li>Kelkar Museum</li>
+                <li>Sinhgad Fort</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
